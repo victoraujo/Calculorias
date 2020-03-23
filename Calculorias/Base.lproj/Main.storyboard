@@ -16,14 +16,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="td4-Qz-6d2">
-                                <rect key="frame" x="36" y="530" width="343" height="219"/>
+                                <rect key="frame" x="36" y="530" width="343" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92693203690000003" green="0.79737704990000002" blue="0.66271138190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DV5-ki-W8Y">
                                 <rect key="frame" x="0.0" y="147" width="414" height="287"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.90971255302429199" green="0.65790146589279175" blue="0.39949524402618408" alpha="0.999755859375" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95995870028456598" green="0.65790146589279175" blue="0.39949524402618408" alpha="0.999755859375" colorSpace="custom" customColorSpace="sRGB"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 1" translatesAutoresizingMaskIntoConstraints="NO" id="rWD-h4-Zt8">
                                 <rect key="frame" x="69" y="50" width="276" height="188"/>
@@ -144,7 +144,7 @@
                                 <state key="normal" image="Editing Selected Dark"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLR-9j-wQH">
-                                <rect key="frame" x="16" y="765" width="383" height="56"/>
+                                <rect key="frame" x="16" y="789" width="383" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92177742719650269" green="0.46420454978942871" blue="0.22296038269996643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -166,7 +166,7 @@
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwt-ad-Hs8">
                                 <rect key="frame" x="0.0" y="433" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94558036737945206" green="0.80979143346164384" blue="0.62450504628356163" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.94509803921568625" green="0.80784313725490198" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X43-hB-fAH">
                                 <rect key="frame" x="20" y="433" width="125" height="44"/>
@@ -209,11 +209,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rMW-jn-T74">
-                                <rect key="frame" x="36" y="461" width="343" height="72"/>
+                                <rect key="frame" x="36" y="461" width="343" height="62"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PkN-46-88W">
-                                <rect key="frame" x="-30" y="475" width="125" height="44"/>
+                                <rect key="frame" x="15" y="469" width="29" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.9217774272" green="0.46420454979999998" blue="0.22296038269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="plus.circle.fill" catalog="system">
@@ -238,6 +238,8 @@
                         <outlet property="comida" destination="X43-hB-fAH" id="55v-po-N5M"/>
                         <outlet property="exercicio" destination="MfX-6D-QYs" id="HHl-cA-Y9d"/>
                         <outlet property="idade" destination="V6Q-EC-W74" id="ZRr-q2-miB"/>
+                        <outlet property="labelCaloriasConsumidas" destination="ZHl-RA-KiV" id="Vi2-V0-iL2"/>
+                        <outlet property="labelCaloriasGastas" destination="LmP-hv-Bcp" id="7ed-wB-xR6"/>
                         <outlet property="labelIdade" destination="mUh-X0-zCz" id="vRk-5L-qVn"/>
                         <outlet property="labelMeta" destination="t1G-9T-IfL" id="Qni-Ow-Fwl"/>
                         <outlet property="labelPeso" destination="f8r-7u-D2j" id="U6Y-87-IHc"/>
